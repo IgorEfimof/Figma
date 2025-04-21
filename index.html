@@ -5,11 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Style</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: white;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .logo-title {
+            font-family: 'Great Vibes', cursive;
+            font-size: 64px;
+            color: white;
+            text-align: center;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+
+        header .container,
+        footer .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+
+        button {
+            background: white;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .hero, .features, .form-section {
+            padding: 40px 20px;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+        }
+
+        .features ul, .features li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .feature-item {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .feature-item img {
+            margin-right: 15px;
+            width: 40px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
+
+        footer {
+            background: #111;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
     <header class="sticky-header">
         <div class="container">
-            <h1>YOUR STYLE</h1>
+            <h1 class="logo-title">YOUR STYLE</h1>
             <nav>
                 <a href="#">Contact</a>
                 <a href="#">About</a>
@@ -69,7 +153,7 @@
     <footer>
         <div class="container">
             <div>
-                <h1>YOUR STYLE</h1>
+                <h1 class="logo-title">YOUR STYLE</h1>
                 <p>©2024 Copyright</p>
             </div>
             <nav>
@@ -85,3 +169,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
