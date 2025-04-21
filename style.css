@@ -1,3 +1,6 @@
+/* Import Fancy Font */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 /* General Reset */
 body, h1, h2, h3, p, ul, li, a, button, input {
     margin: 0;
@@ -14,6 +17,16 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+/* Logo Styling */
+.logo-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0;
 }
 
 /* Header */
@@ -42,12 +55,12 @@ body {
 .hero {
     background: #000;
     color: white;
-    text-align: left; /* Выровнять текст по левому краю */
+    text-align: left;
     padding: 100px 20px;
 }
 .hero .container {
-    margin-left: 0; /* Сдвигаем секцию к левому краю */
-    max-width: 600px; /* Ограничиваем ширину, чтобы блок находился ближе к левой стороне */
+    margin-left: 0;
+    max-width: 600px;
 }
 .hero h2 {
     font-size: 36px;
@@ -96,7 +109,7 @@ body {
     background: #111;
     color: white;
     padding: 60px 20px;
-    text-align: left; /* Выровнять текст и элементы по левому краю */
+    text-align: left;
 }
 .features ul {
     list-style: none;
@@ -105,20 +118,20 @@ body {
 }
 .features ul li {
     display: flex;
-    flex-direction: row; /* Расположить иконку и текст в одну строку */
-    align-items: center; /* Вертикальное выравнивание элементов */
-    text-align: left; /* Текст по левому краю */
-    margin: 20px 0; /* Отступ между элементами */
-    gap: 15px; /* Промежуток между иконкой и текстом */
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    margin: 20px 0;
+    gap: 15px;
 }
 .features ul li img {
-    height: 2.5em; /* Высота иконки */
-    width: auto; /* Сохраняем пропорции иконки */
+    height: 2.5em;
+    width: auto;
 }
 .features ul li p {
     font-size: 16px;
     line-height: 1.4;
-    margin: 0; /* Убираем лишние отступы */
+    margin: 0;
 }
 .features button {
     background: white;
@@ -129,7 +142,7 @@ body {
     font-weight: 600;
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
-    margin-top: 30px; /* Отступ сверху для кнопки */
+    margin-top: 30px;
 }
 .features button:hover {
     background: black;
@@ -141,75 +154,75 @@ body {
 .form-section {
     background: #f4f4f4;
     color: #333;
-    padding: 20px 20px; /* Уменьшено пространство внутри блока */
+    padding: 20px 20px;
     text-align: center;
-    border-radius: 12px; /* Закругленные края */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
-    margin: 20px auto; /* Уменьшен отступ сверху и снизу */
-    max-width: 500px; /* Уменьшена ширина секции */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 500px;
 }
 .form-section h3 {
-    font-size: 20px; /* Уменьшен размер заголовка */
+    font-size: 20px;
     color: #000;
-    margin-bottom: 10px; /* Уменьшен отступ под заголовком */
-    font-weight: 600; /* Полужирный шрифт */
-    text-transform: uppercase; /* Верхний регистр */
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .form-section form {
-    margin-top: 10px; /* Уменьшен отступ сверху формы */
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .form-section form label {
     align-self: flex-start;
-    margin: 6px 0 4px; /* Уменьшены отступы у меток */
+    margin: 6px 0 4px;
     font-size: 14px;
     color: #000;
     font-weight: 500;
 }
 .form-section form input {
     width: 100%;
-    max-width: 400px; /* Уменьшена ширина полей ввода */
-    padding: 8px; /* Уменьшено пространство внутри полей */
-    margin: 6px 0; /* Уменьшены отступы между полями */
-    border: 1px solid #ccc; /* Светлая граница */
-    border-radius: 6px; /* Закругленные углы */
+    max-width: 400px;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
     font-size: 14px;
     font-family: 'Roboto', Arial, sans-serif;
     color: #333;
 }
 .form-section form input:focus {
     outline: none;
-    border-color: #000; /* Цвет рамки при фокусе */
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /* Легкий акцент на фокусе */
+    border-color: #000;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 .form-section form div {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Выравнивание по левому краю */
-    margin: 8px 0; /* Уменьшенные отступы вокруг чекбокса */
-    gap: 8px; /* Промежуток между чекбоксом и текстом */
+    justify-content: flex-start;
+    margin: 8px 0;
+    gap: 8px;
 }
 .form-section form input[type="checkbox"] {
-    margin: 0; /* Убраны лишние отступы */
+    margin: 0;
 }
 .form-section form button {
-    background: #000; /* Черный фон */
-    color: #fff; /* Белый текст */
-    padding: 10px 20px; /* Уменьшены внутренние отступы кнопки */
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
     border: none;
-    border-radius: 6px; /* Закругленные углы кнопки */
+    border-radius: 6px;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    transition: background 0.3s, color 0.3s; /* Плавный переход на hover */
-    text-transform: uppercase; /* Верхний регистр */
+    transition: background 0.3s, color 0.3s;
+    text-transform: uppercase;
 }
 .form-section form button:hover {
-    background: #fff; /* Белый фон на наведении */
-    color: #000; /* Черный текст на наведении */
-    border: 1px solid #000; /* Черная рамка */
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
 }
 
 /* Footer */
@@ -240,3 +253,4 @@ footer button:hover {
     color: white;
     border: 1px solid white;
 }
+
