@@ -38,6 +38,16 @@ body {
     font-size: 14px;
 }
 
+/* Logo Title */
+.logo-title {
+    font-size: 48px; /* Уменьшение размера */
+    font-family: serif; /* Обычный художественный шрифт */
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
 /* Hero Section */
 .hero {
     background: #000;
