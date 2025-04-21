@@ -151,41 +151,42 @@ body {
 .form-section {
     background: #f4f4f4;
     color: #333;
-    padding: 15px 15px; /* Уменьшено пространство внутри блока */
+    padding: 10px 10px; /* Уменьшено пространство внутри блока */
     text-align: center;
-    border-radius: 12px; /* Закругленные края */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
-    margin: 15px auto; /* Уменьшен отступ сверху и снизу */
-    max-width: 450px; /* Уменьшена ширина секции */
+    border-radius: 8px; /* Закругленные края */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    margin: 10px auto; /* Уменьшен отступ сверху и снизу */
+    max-width: 400px; /* Уменьшена ширина секции */
 }
 .form-section h3 {
-    font-size: 18px; /* Уменьшен размер заголовка */
+    font-size: 16px; /* Уменьшен размер заголовка */
     color: #000;
-    margin-bottom: 8px; /* Уменьшен отступ под заголовком */
+    margin-bottom: 6px; /* Уменьшен отступ под заголовком */
     font-weight: 600; /* Полужирный шрифт */
     text-transform: uppercase; /* Верхний регистр */
 }
 .form-section form {
-    margin-top: 8px; /* Уменьшен отступ сверху формы */
+    margin-top: 6px; /* Уменьшен отступ сверху формы */
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px; /* Промежуток между элементами формы */
 }
 .form-section form label {
     align-self: flex-start;
-    margin: 4px 0 2px; /* Уменьшены отступы у меток */
-    font-size: 13px;
+    margin: 3px 0; /* Уменьшены отступы у меток */
+    font-size: 12px;
     color: #000;
     font-weight: 500;
 }
 .form-section form input {
     width: 100%;
-    max-width: 400px; /* Уменьшена ширина полей ввода */
-    padding: 6px; /* Уменьшено пространство внутри полей */
-    margin: 4px 0; /* Уменьшены отступы между полями */
+    max-width: 350px; /* Уменьшена ширина полей ввода */
+    padding: 5px; /* Уменьшено пространство внутри полей */
+    margin: 3px 0; /* Уменьшены отступы между полями */
     border: 1px solid #ccc; /* Светлая граница */
-    border-radius: 6px; /* Закругленные углы */
-    font-size: 13px;
+    border-radius: 4px; /* Закругленные углы */
+    font-size: 12px;
     font-family: 'Roboto', Arial, sans-serif;
     color: #333;
 }
@@ -198,9 +199,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start; /* Выравнивание по левому краю */
-    margin: 6px 0; /* Уменьшенные отступы вокруг чекбокса */
-    gap: 6px; /* Промежуток между чекбоксом и текстом */
-    font-size: 13px; /* Уменьшен размер текста */
+    margin: 4px 0; /* Уменьшенные отступы вокруг чекбокса */
+    gap: 4px; /* Промежуток между чекбоксом и текстом */
+    font-size: 12px; /* Уменьшен размер текста */
 }
 .form-section form input[type="checkbox"] {
     margin: 0; /* Убраны лишние отступы */
@@ -208,10 +209,10 @@ body {
 .form-section form button {
     background: #000; /* Черный фон */
     color: #fff; /* Белый текст */
-    padding: 8px 16px; /* Уменьшены внутренние отступы кнопки */
+    padding: 6px 12px; /* Уменьшены внутренние отступы кнопки */
     border: none;
-    border-radius: 6px; /* Закругленные углы кнопки */
-    font-size: 13px;
+    border-radius: 4px; /* Закругленные углы кнопки */
+    font-size: 12px;
     font-weight: 600;
     cursor: pointer;
     transition: background 0.3s, color 0.3s; /* Плавный переход на hover */
