@@ -72,7 +72,7 @@ body {
 .hero ul li::before {
     content: "✔";
     color: #fff;
-    margin-right: 10px;
+    margin-right: 15px;
     font-size: 18px;
 }
 .hero button {
