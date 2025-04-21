@@ -135,35 +135,35 @@ body {
 .form-section {
     background: #f4f4f4;
     color: #333;
-    padding: 40px 30px;
+    padding: 20px 20px; /* Уменьшение внутренних отступов */
     text-align: center;
     border-radius: 15px; /* Закругленные края */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для выделения */
-    margin: 50px auto;
+    margin: 40px auto; /* Отступы сверху и снизу */
     max-width: 600px; /* Ограничение ширины блока */
 }
 .form-section h3 {
-    font-size: 24px;
+    font-size: 20px; /* Уменьшение размера заголовка */
     color: #000;
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Уменьшение отступа под заголовком */
 }
 .form-section form {
-    margin-top: 20px;
+    margin-top: 15px; /* Уменьшение отступа сверху формы */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .form-section form label {
     align-self: flex-start;
-    margin: 10px 0 5px;
+    margin: 8px 0 5px; /* Уменьшение вертикальных отступов у меток */
     font-size: 14px;
     font-weight: 500;
 }
 .form-section form input {
     width: 100%;
     max-width: 400px;
-    padding: 12px;
-    margin: 10px 0;
+    padding: 10px; /* Уменьшение внутреннего отступа в полях ввода */
+    margin: 8px 0; /* Уменьшение отступов между полями */
     border: 1px solid #ccc;
     border-radius: 8px; /* Закругленные края для полей ввода */
     font-size: 14px;
@@ -175,10 +175,10 @@ body {
 .form-section form button {
     background: black;
     color: white;
-    padding: 12px 30px;
+    padding: 10px 25px; /* Уменьшение внутреннего отступа у кнопки */
     border: none;
     border-radius: 8px; /* Закругленные края кнопки */
-    font-size: 16px;
+    font-size: 14px; /* Уменьшение размера текста кнопки */
     font-weight: 600;
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
