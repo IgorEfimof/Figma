@@ -145,8 +145,8 @@ body {
     text-align: center;
     border-radius: 12px; /* Закругленные края */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
-    margin: 30px auto; /* Уменьшен отступ сверху и снизу */
-    max-width: 600px; /* Уменьшена ширина секции */
+    margin: 20px auto; /* Уменьшен отступ сверху и снизу */
+    max-width: 500px; /* Уменьшена ширина секции */
 }
 .form-section h3 {
     font-size: 20px; /* Уменьшен размер заголовка */
