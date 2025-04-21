@@ -5,7 +5,9 @@ body, h1, h2, h3, p, ul, li, a, button, input {
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
     line-height: 1.6;
 }
 .container {
@@ -18,7 +20,7 @@ body {
 .sticky-header {
     position: sticky;
     top: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
     color: white;
     padding: 10px 0;
     z-index: 1000;
@@ -31,7 +33,9 @@ body {
 .sticky-header nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 /* Hero Section */
@@ -39,28 +43,57 @@ body {
     background: #000;
     color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 100px 20px;
+}
+.hero h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 .hero ul {
     list-style: none;
     margin: 20px 0;
+    padding: 0;
 }
 .hero ul li {
+    font-size: 16px;
     margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero ul li::before {
+    content: "✔";
+    color: #fff;
+    margin-right: 10px;
+    font-size: 18px;
 }
 .hero button {
     background: white;
     color: black;
-    padding: 10px 20px;
+    padding: 12px 30px;
     border: none;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+.hero button:hover {
+    background: black;
+    color: white;
+    border: 1px solid white;
 }
 
 /* Features Section */
 .features {
-    background: #222;
+    background: #111;
     color: white;
-    padding: 50px 20px;
+    padding: 60px 20px;
+    text-align: center;
 }
 .features ul {
     list-style: none;
@@ -69,67 +102,109 @@ body {
 .features ul li {
     display: flex;
     align-items: center;
-    margin: 15px 0;
-    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 15px;
 }
 .features ul li img {
-    height: 2.2em; /* Высота иконки равна высоте текста */
+    height: 2.5em; /* Высота иконки равна высоте текста */
     width: auto; /* Сохраняем пропорции иконки */
     vertical-align: middle; /* Выравниваем иконку по центру текста */
+}
+.features ul li p {
+    font-size: 16px;
+    line-height: 1.4;
 }
 .features button {
     background: white;
     color: black;
-    padding: 10px 20px;
+    padding: 12px 30px;
     border: none;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+.features button:hover {
+    background: black;
+    color: white;
+    border: 1px solid white;
 }
 
 /* Form Section */
 .form-section {
     background: #f4f4f4;
     color: #333;
-    padding: 50px 20px;
+    padding: 60px 20px;
     text-align: center;
+}
+.form-section h3 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 20px;
 }
 .form-section form {
     margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
 }
 .form-section form label {
     display: block;
-    margin: 5px 0;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    font-weight: 500;
 }
 .form-section form input {
     width: 100%;
-    max-width: 400px;
-    padding: 10px;
+    padding: 12px;
     margin: 10px 0;
     border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
 }
 .form-section form button {
     background: black;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 30px;
     border: none;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+.form-section form button:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
 }
 
 /* Footer */
 footer {
     background: #000;
     color: white;
-    padding: 20px 0;
+    padding: 30px 20px;
     text-align: center;
 }
 footer nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
+    font-size: 14px;
 }
 footer button {
     background: white;
     color: black;
-    padding: 10px 20px;
+    padding: 12px 30px;
     border: none;
+    font-size: 14px;
+    font-weight: 600;
     cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+footer button:hover {
+    background: black;
+    color: white;
+    border: 1px solid white;
 }
