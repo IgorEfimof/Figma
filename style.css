@@ -101,18 +101,19 @@ body {
 .features ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 .features ul li {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    gap: 15px;
+    flex-direction: column; /* Вертикальное расположение элементов */
+    align-items: center; /* Центрируем иконку и текст */
+    text-align: center; /* Текст по центру */
+    margin: 40px 0; /* Отступ между элементами */
 }
 .features ul li img {
-    height: 2.5em; /* Высота иконки равна высоте текста */
+    height: 2.5em; /* Высота иконки */
     width: auto; /* Сохраняем пропорции иконки */
-    vertical-align: middle; /* Выравниваем иконку по центру текста */
+    margin-bottom: 15px; /* Отступ между иконкой и текстом */
 }
 .features ul li p {
     font-size: 16px;
@@ -127,6 +128,7 @@ body {
     font-weight: 600;
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
+    margin-top: 30px; /* Отступ сверху для кнопки */
 }
 .features button:hover {
     background: black;
