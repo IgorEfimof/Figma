@@ -96,7 +96,7 @@ body {
     background: #111;
     color: white;
     padding: 60px 20px;
-    text-align: center;
+    text-align: left; /* Выровнять текст и элементы по левому краю */
 }
 .features ul {
     list-style: none;
@@ -106,8 +106,8 @@ body {
 .features ul li {
     display: flex;
     flex-direction: column; /* Вертикальное расположение элементов */
-    align-items: center; /* Центрируем иконку и текст */
-    text-align: center; /* Текст по центру */
+    align-items: flex-start; /* Выровнять элементы по левому краю */
+    text-align: left; /* Текст по левому краю */
     margin: 40px 0; /* Отступ между элементами */
 }
 .features ul li img {
