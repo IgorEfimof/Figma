@@ -105,19 +105,20 @@ body {
 }
 .features ul li {
     display: flex;
-    flex-direction: column; /* Вертикальное расположение элементов */
-    align-items: flex-start; /* Выровнять элементы по левому краю */
+    flex-direction: row; /* Расположить иконку и текст в одну строку */
+    align-items: center; /* Вертикальное выравнивание элементов */
     text-align: left; /* Текст по левому краю */
-    margin: 40px 0; /* Отступ между элементами */
+    margin: 20px 0; /* Отступ между элементами */
+    gap: 15px; /* Промежуток между иконкой и текстом */
 }
 .features ul li img {
     height: 2.5em; /* Высота иконки */
     width: auto; /* Сохраняем пропорции иконки */
-    margin-bottom: 15px; /* Отступ между иконкой и текстом */
 }
 .features ul li p {
     font-size: 16px;
     line-height: 1.4;
+    margin: 0; /* Убираем лишние отступы */
 }
 .features button {
     background: white;
