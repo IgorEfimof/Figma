@@ -104,12 +104,10 @@ body {
 }
 .features ul li {
     display: flex;
-    flex-direction: column; /* Вертикальное расположение текста и иконок */
-    align-items: center; /* Центрирование блока */
-    text-align: left; /* Выровнять текст внутри блока по левому краю */
+    align-items: center;
+    justify-content: center;
     margin: 20px 0;
     gap: 15px;
-    max-width: 600px; /* Ограничение ширины блока */
 }
 .features ul li img {
     height: 2.5em; /* Высота иконки равна высоте текста */
