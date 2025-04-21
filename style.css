@@ -151,22 +151,22 @@ body {
 .form-section {
     background: #f4f4f4;
     color: #333;
-    padding: 8px 8px; /* Минимальное пространство внутри блока */
+    padding: 10px; /* Уменьшено пространство внутри блока */
     text-align: center;
-    border-radius: 6px; /* Закругленные края */
+    border-radius: 8px; /* Закругленные края */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень */
-    margin: 8px auto; /* Маленький отступ сверху и снизу */
-    max-width: 300px; /* Уменьшена ширина секции */
+    margin: 10px auto; /* Уменьшен отступ сверху и снизу */
+    max-width: 400px;
 }
 .form-section h3 {
-    font-size: 14px; /* Уменьшенный размер заголовка */
+    font-size: 14px; /* Уменьшен размер заголовка */
     color: #000;
-    margin-bottom: 5px; /* Уменьшенный отступ под заголовком */
+    margin-bottom: 5px; /* Уменьшен отступ под заголовком */
     font-weight: 600; /* Полужирный шрифт */
     text-transform: uppercase; /* Верхний регистр */
 }
 .form-section form {
-    margin-top: 5px; /* Уменьшенный отступ сверху формы */
+    margin-top: 5px; /* Уменьшен отступ сверху формы */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,15 +174,14 @@ body {
 }
 .form-section form label {
     align-self: flex-start;
-    margin: 3px 0; /* Минимальные отступы у меток */
+    margin: 2px 0; /* Минимальные отступы у меток */
     font-size: 12px;
     color: #000;
     font-weight: 500;
 }
 .form-section form input {
     width: 100%;
-    max-width: 280px; /* Уменьшенная ширина полей ввода */
-    padding: 5px; /* Уменьшенное пространство внутри полей */
+    padding: 5px; /* Уменьшено пространство внутри полей */
     margin: 3px 0; /* Уменьшенные отступы между полями */
     border: 1px solid #ccc; /* Светлая граница */
     border-radius: 4px; /* Закругленные углы */
@@ -199,8 +198,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start; /* Выравнивание по левому краю */
-    margin: 3px 0; /* Уменьшенные отступы вокруг чекбокса */
-    gap: 4px; /* Промежуток между чекбоксом и текстом */
+    gap: 5px; /* Промежуток между чекбоксом и текстом */
     font-size: 12px; /* Уменьшен размер текста */
 }
 .form-section form input[type="checkbox"] {
@@ -209,7 +207,7 @@ body {
 .form-section form button {
     background: #000; /* Черный фон */
     color: #fff; /* Белый текст */
-    padding: 6px 10px; /* Минимальные внутренние отступы кнопки */
+    padding: 5px 10px; /* Уменьшены внутренние отступы кнопки */
     border: none;
     border-radius: 4px; /* Закругленные углы кнопки */
     font-size: 12px;
