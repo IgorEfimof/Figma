@@ -64,9 +64,17 @@ body {
 }
 .features ul {
     list-style: none;
+    padding: 0;
 }
 .features ul li {
+    display: flex;
+    align-items: center;
     margin: 15px 0;
+    gap: 15px;
+}
+.features ul li img {
+    width: 25px;
+    height: 25px;
 }
 .features button {
     background: white;
